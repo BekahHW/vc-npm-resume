@@ -1,6 +1,7 @@
 {
-  "name": "vc-npm-resume",
-  "version": "0.0.1",
+  "bin": "index.js",
+  "name": "bekahw-npm-resume",
+  "version": "0.0.2",
   "description": "A workshop showing making your own `npx`-runnable npm package. 🎁",
   "main": "index.js",
   "scripts": {
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/BekahHW/vc-npm-resume/issues"
   },
-  "homepage": "https://github.com/BekahHW/vc-npm-resume#readme"
+  "homepage": "https://github.com/BekahHW/vc-npm-resume#readme",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "chalk": "^5.3.0",
+    "strip": "^3.0.0"
+  },
+  "type": "module"
 }
